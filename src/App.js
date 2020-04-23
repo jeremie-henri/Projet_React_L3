@@ -78,8 +78,8 @@ class App extends React.Component {
                         <Chat/>
                         <div className='container'>
                             <div className="wins">
-                                Total Wins : <br/>
-                                Black :{UserStore.black} | White :{UserStore.white}
+                                Total Wins<br/>
+                                Black : {UserStore.black} | White : {UserStore.white}
                             </div>
                             <button
                                 className='btnL'
@@ -96,7 +96,7 @@ class App extends React.Component {
             return (
                 <div className="app">
                     <div className='container'>
-                        <h1>Projet React L3</h1>
+                        <h1>Projet React L3 </h1>
                         <LoginForm />
 
                     </div>
